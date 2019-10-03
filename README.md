@@ -6,7 +6,7 @@ Document Anonymization Tool, Version 0.5<br>
 
 The Privacy, Security and Automation Lab (PSAL)<br>
 Drexel University, Philadelphia PA<br>
-<http://psal.cs.drexel.edu/>
+<https://psal.cs.drexel.edu/index.php/Main_Page>
 
 
 # Index
@@ -39,7 +39,7 @@ Though Anonymouth and it's team works hard to provide you with tools to help rem
 
 ### <a id="dependencies"></a>Dependencies
 
-Java 7 is required to run Anonymouth. If you don't yet have it, get it at <a href="http://java.com/en/download/index.jsp">Oracle's website here</a> and follow the installation instructions provided there.
+Java 7 is required to run Anonymouth. If you don't yet have it, get it at <a href="https://www.oracle.com/technetwork/java/javase/archive-139210.html">Oracle's website here</a> and follow the installation instructions provided there.
 
 If you are unsure whether or not you have it installed, follow these steps to see:
 * OS X:
