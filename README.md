@@ -13,8 +13,9 @@ Drexel University, Philadelphia PA<br>
 1. Set Up
 	- [Introduction](#introduction)
 	- [Dependencies](#dependencies)
+	- [Run](#run)
 	- [Installation](#installation)
-	- [How to Build and Run](#how-to-build-and-run)
+	- [Setup and Run](#setup-and-run)
 2. Development	
 	- [Basic Logic Flow](#basic-logic-flow)
 	- [Basic Class Strucutre](#basic-class-structure)
@@ -47,6 +48,24 @@ If you are unsure whether or not you have it installed, follow these steps to se
 	3.  If you see something like `java version "1.7.x_xx"` then you're ready to go! If not, then that means you most likely don't have Java 7 installed, in which case you should go to the download link above
 * Windows:
 	1.  Follow the instructions here: http://www.java.com/en/download/help/version_manual.xml. if you have version "1.7.x_xx", then you're good to go! If not, then that means you most likely don't have Java 7 installed, in which case you should go to the download link above
+	
+###<a id="run"></a>Run
+
+The simplest way to run Anonymouth is to check out the `compiled` [branch](https://github.com/spencermwoo/anonymouth/tree/compiled) and run the compiled program.
+
+[Back to top](#top)
+
+###<a id="installation"></a>Installation
+
+There quickest and easiest way to install Anonymouth is to clone or download the zip of the <a href="https://github.com/psal/anonymouth">Anonymouth github project here</a>
+
+And then import this project as an existing project into Eclipse (or clone and import directly within Eclipse if you have the Eclipse eGit plugin).
+
+This is currently the only ready way to compile and run Anonymouth. We will be including a updated build file soon so that you may build and run Anonymouth easily within the command land, but sadly it hasn't been done yet so this is the only option currently
+
+[Back to top](#top)
+
+###<a id="setup-and-run"></a>Setup and Run
 
 If you are using Eclipse, also make sure that Java 7 is your selected compiler by checking `Preferences/Java/Compiler` and is an included Library in your java Build Path (Not sure how to do this? Google is your friend).
 
@@ -104,19 +123,7 @@ Anonymouth also needs the following jars in the lib directory (everything should
   </tr>
 </table>
 
-[Back to top](#top)
-
-###<a id="installation"></a>Installation
-
-There quickest and easiest way to install Anonymouth is to clone or download the zip of the <a href="https://github.com/psal/anonymouth">Anonymouth github project here</a>
-
-And then import this project as an existing project into Eclipse (or clone and import directly within Eclipse if you have the Eclipse eGit plugin).
-
-This is currently the only ready way to compile and run Anonymouth. We will be including a updated build file soon so that you may build and run Anonymouth easily within the command land, but sadly it hasn't been done yet so this is the only option currently
-
-[Back to top](#top)
-
-###<a id="how-to-build-and-run"></a>How to Build and Run
+---
 
 Once Anonymouth is all set up in Eclipse, you need only run `ThePresident` from the package `edu.drexel.psal.anonymouth.gooie` to begin using it.
 
