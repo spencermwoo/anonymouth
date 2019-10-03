@@ -20,72 +20,6 @@ Developed by:
 	Joe Muoio
 
 ====================================================
--------------------INTRODUCTION---------------------
-====================================================
-
-Anonymouth is a Java-based application that aims to
-give users to tools and knowledge needed to begin
-anonymizing documents they have written.
-
-It does this by firing up JStylo libraries (an
-author detection application also develped by PSAL)
-to detect stylometric patterns and determine
-features (like word length, bigrams, trigrams, etc.)
-that the user should remove/add to help obsure their
-style and identity.
-
-Though Anonymouth and it's team works hard to
-provide you with tools to help remove your identity
-from documents you have written, WE CAN IN NO WAY
-GUARANTEE THAT YOUR DOCUMENT IS ANONYMOUS OR NOT
-ANONYMOUS. Anonymouth is always giving you it's best
-guess, it's best idea of where your document stands,
-though that should not any any time be taken as an
-absolute (for example, you could have forgotten to
-remove your name from the document and Anonymouth
-has no way to know that that's your name and should
-remove it). What we can say is Anonymouth is only as
-good as you make it, and when used right can be
-helpful in guiding your document towards the right
-direction.
-
-====================================================
--------------------INSTALLATION---------------------
-====================================================
-
-There quickest and easiest way to install Anonymouth
-is to clone or download the zip of the Anonymouth
-github project here:
-
-https://github.com/psal/anonymouth
-
-And then import this project as an existing project
-into Eclipse (or clone and import directly within
-Eclipse if you have the Eclipse eGit plugin).
-
-This is currently the only ready way to compile and
-run Anonymouth. We will be including a updated build
-file soon so that you may build and run Anonymouth
-easily within the command land, but sadly it hasn't
-been done yet so this is the only option currently
-
-====================================================
--------------------BUILD AND RUN--------------------
-====================================================
-
-Once Anonymouth is all set up in Eclipse, you need
-only run ThePresident from the package
-edu.drexel.psal.anonymouth.gooie to begin using it.
-
-Please note that there are two main package
-categories, JStylo and Anonymouth. The majority of
-Anonymouth developement should be in the Anonymouth
-packages as Anonymouth simply uses the JStylo
-libraries for parts of the initial document process,
-so beginners need only concern themselves with the
-Anonymouth packages.
-
-====================================================
 -------------------DEPENDENCIES---------------------
 ====================================================
 
@@ -154,24 +88,6 @@ recommended to use many different combinations of
 authors so you can get the best posisble picture of
 where your document stands anonymously with respect
 to others.
-
-----------------------------------------------------
-
-Anonymouth also needs the following jars in the lib
-directory (everything should already be included):
-
-weka					3.7.9
-fasttag					2.0
-Jama					1.0.3
-jaws					1.3
-jcommon					1.0
-freechart				1.0.14
-jgaap					5.4.0
-microsoft translator	0.6.1
-miglayout				4.0
-tt4j					1.0.15
-Stanford postagger		-
-ui						-
 
 ====================================================
 ---------------------LICENSE------------------------
