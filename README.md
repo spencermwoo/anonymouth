@@ -127,7 +127,7 @@ Anonymouth also needs the following jars in the lib directory (everything should
 
 Once Anonymouth is all set up in Eclipse, you need only run `ThePresident` from the package `edu.drexel.psal.anonymouth.gooie` to begin using it.
 
-Please note that there are two main package categories, JStylo and Anonymouth. The majority of Anonymouth developement should be in the Anonymouth packages as Anonymouth simply uses the JStylo libraries for parts of the initial document process, so beginners need only concern themselves with the Anonymouth packages.
+Please note that there are two main package categories, JStylo and Anonymouth. The majority of Anonymouth development should be in the Anonymouth packages as Anonymouth simply uses the JStylo libraries for parts of the initial document process, so beginners need only concern themselves with the Anonymouth packages.
 
 [Back to top](#top)
 
@@ -189,7 +189,7 @@ For the most part, Anonymouth splits UI objects into two classes: [Class name]Pa
 - Handles assert methods (if any)
 - Handles UI update/panel switch methods (if any)
 
-While the cooresponding Driver class:
+While the corresponding Driver class:
 
 - Handles all listeners
 - Hanldes most backend/data manipulation and updating
