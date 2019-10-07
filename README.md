@@ -69,7 +69,7 @@ This is currently the only ready way to compile and run Anonymouth. We will be i
 
 If you are using Eclipse, also make sure that Java 7 is your selected compiler by checking `Preferences/Java/Compiler` and is an included Library in your java Build Path (Not sure how to do this? Google is your friend).
 
-Anonymouth requires the included `jsan_resources` directory in it's running directory (The main Anonymouth directory containing lib, src, etc.). It should be in the correct directy by default.
+Anonymouth requires the included `jsan_resources` directory in it's running directory (The main Anonymouth directory containing lib, src, etc.). It should be in the correct directory by default.
 
 Anonymouth requires a corpus (basically a database of other authors and documents they have written) to run. It needs this so it can classify your documents with respect to these other documents and their styles so that Anonymouth can give you an idea of how anonymous it thinks your document is and what features to remove/add to help you get there. Three different corpi are included in the project directory for you to choose and are located at:
 
@@ -77,7 +77,7 @@ Anonymouth requires a corpus (basically a database of other authors and document
 * `./anonymouth/jsan_resources/corpora/drexel_1`
 * `./anonymouth/jsan_resources/enron_demo`
 
-Though we included corpi, you are more than welcome to use any other corpus you may have. It is recommended to use many different combinations of authors so you can get the best posisble picture of where your document stands anonymously with respect to others.
+Though we included corpi, you are more than welcome to use any other corpus you may have. It is recommended to use many different combinations of authors so you can get the best possible picture of where your document stands anonymously with respect to others.
 
 Anonymouth also needs the following jars in the lib directory (everything should already be included):
 
