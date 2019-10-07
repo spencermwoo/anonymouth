@@ -192,9 +192,9 @@ For the most part, Anonymouth splits UI objects into two classes: [Class name]Pa
 While the corresponding Driver class:
 
 - Handles all listeners
-- Hanldes most backend/data manipulation and updating
+- Handles most backend/data manipulation and updating
 
-Again, these are just general guidelines. Sometimes it makes more sense to just have one class handle everything if it's a small object, or sometimes it doesn't make sense to have a seperate Panel/Window class but it does to have a Driver class, etc. You just need to use your best judgement on what will make things more organized and easier to understand.
+Again, these are just general guidelines. Sometimes it makes more sense to just have one class handle everything if it's a small object, or sometimes it doesn't make sense to have a separate Panel/Window class but it does to have a Driver class, etc. You just need to use your best judgement on what will make things more organized and easier to understand.
 
 ##### ---Package / Organizing Convention---
 
