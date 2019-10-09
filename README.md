@@ -205,10 +205,6 @@ ___
 ### <a id="to-do-list"></a>To Do List
 Add features as they are conceived and ~~strikethrough~~ as they are completed ([1] means most important and [5] means relatively small and not particularly a priority at the moment)
 
-- [1] AUTOMATE AS MUCH OF THE ANONYMIZATION PROCESS AS POSSIBLE. This should be the top priority as of now, see Andrew for the plan and details.
-- [1] An internal  thesaurus must be implemented to help users change words to remove (that or nicely implement the one built into the system, preferable if possible)
-- [2] An intelligent method to search and filter through words to add (start with simple search box, then possibly extend to automatic filtering based on synonyms?)
-- [5] The clusters window should be updated to be easier to understand and use (it's hidden away in `Window > Clusters`)
 
 [Back to top](#top)
 ___
